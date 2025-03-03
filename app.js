@@ -11,6 +11,7 @@ function addFriend(){
         inputFriend.value = ""; //clear the input field
         console.log("Friend added successfully"); // log the success message
         console.log(friends); // log the array of friends
+        updateList(); // update the list of friends
         return;
     } 
     else{
@@ -26,10 +27,24 @@ function drawFriend(){
         let randomFriend = Math.floor(Math.random() * friends.length);// get a random friend from the array
         let friendWinner = friends[randomFriend]; // get the name of the winner
         document.querySelector('#result').innerHTML = friendWinner; // display the name of the winner
-        console.log(friendWinner);
+        return;
     }
     else {
         alert("Please add a friend first");
         return;
     }
+}
+
+// function to update the list of friends
+function updateList(){
+    let list = document.querySelector('#listoffriends'); // get the list of friends
+    list.innerHTML = ""; // clear the list
+
+    for(let index = 0; index < friends.length; index++){ //loop through the array of friends
+        list.innerHTML += `<li>${friends[index]}</li>`; // add each friend to the list
+    }
+
+
+
+
 }
