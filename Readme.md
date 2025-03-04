@@ -1,3 +1,3 @@
 <h1 align="center">  DrawPrize</h1>
 
-![](C:\Users\kalib\Bootcamp Alura\Chanllenge-oracle\assets\main-page.png)
+![](https://capitalcu.ie/wp-content/uploads/2021/03/prize-image-550x350px.jpg)
