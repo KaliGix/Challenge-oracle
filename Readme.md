@@ -5,7 +5,7 @@
 ## Descripcion del proyecto
 
 - Este proyecto fue construido a modo de practica. Es uno de los desafios que brinda el Bootcamp Alura.
-- La pagina web agrega una lista de nombres de amigos y cuando el usuario decida terminar de agregar los nombres, puede dar al boton     sortear amigo secreto. De esta forma la web elige a un ganador 
+- La pagina web agrega una lista de nombres de amigos y cuando el usuario decida terminar de agregar los nombres, puede dar al boton sortear amigo secreto. De esta forma la web elige a un ganador al azar.
 
 ## Tecnologias Utilizadas
 
